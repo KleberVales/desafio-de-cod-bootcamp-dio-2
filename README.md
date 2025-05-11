@@ -8,3 +8,5 @@ A entrada deve receber uma lista de valores inteiros representando a velocidade 
 
 ## Saída
 Deverá retornar "Queda de Conexao" se houver pelo menos uma velocidade registrada igual a 0 Mbps, e "Sem Quedas" caso contrário.
+
+## Exemplos
