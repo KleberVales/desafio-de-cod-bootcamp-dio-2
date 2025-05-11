@@ -11,3 +11,7 @@ Deverá retornar "Queda de Conexao" se houver pelo menos uma velocidade registra
 
 ## Exemplos
 A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar seu programa com esses exemplos e com outros casos possíveis.
+
+| Entrada | Saída |
+|---------|-------|
+|130,50,0,90,130,136|Queda de Conexao|
