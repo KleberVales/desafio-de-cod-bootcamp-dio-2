@@ -15,3 +15,5 @@ A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectiva
 | Entrada | Saída |
 |---------|-------|
 |130,50,0,90,130,136|Queda de Conexao|
+|120,130,125,125,120,130|Sem Quedas|
+|110,125,80,0,105,125|Queda de Conexao|
