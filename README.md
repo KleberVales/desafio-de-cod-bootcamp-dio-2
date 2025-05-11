@@ -5,3 +5,5 @@ Implemente um programa que verifique se houve queda de conexão em um dia. A que
 
 ## Entrada
 A entrada deve receber uma lista de valores inteiros representando a velocidade de conexão em Mbps separados por vírgulas.
+
+## Saída
