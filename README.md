@@ -17,3 +17,43 @@ A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectiva
 |130,50,0,90,130,136|Queda de Conexao|
 |120,130,125,125,120,130|Sem Quedas|
 |110,125,80,0,105,125|Queda de Conexao|
+
+```
+import java.util.Scanner;
+
+public class Main {
+
+    // TODO: Preencha a função para verificar queda de conexão
+    public static String verificarQuedaConexao(String[] velocidades) {
+        // Percorre cada velocidade no array
+        for (String velocidadeStr : velocidades) {
+            // Remove espaços em branco e converte para inteiro
+            int velocidade = Integer.parseInt(velocidadeStr.trim());
+            // Se a velocidade for 0, retorna "Queda de Conexao"
+            if (velocidade == 0) {
+                return "Queda de Conexao";
+            }
+        }
+        // Se nenhuma velocidade for 0, retorna "Sem Quedas"
+        return "Sem Quedas";
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Solicitando ao usuário a lista de velocidades de conexão registradas a cada hora
+        String input = scanner.nextLine();
+
+        // Convertendo a entrada em uma lista de strings
+        String[] velocidades = input.split(",");
+
+        // Verificando se houve queda de conexão
+        String resultado = verificarQuedaConexao(velocidades);
+
+        // Exibindo o resultado da verificação
+        System.out.println(resultado);
+
+        scanner.close();
+    }
+}
+```
