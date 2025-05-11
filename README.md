@@ -7,3 +7,4 @@ Implemente um programa que verifique se houve queda de conexão em um dia. A que
 A entrada deve receber uma lista de valores inteiros representando a velocidade de conexão em Mbps separados por vírgulas.
 
 ## Saída
+Deverá retornar "Queda de Conexao" se houver pelo menos uma velocidade registrada igual a 0 Mbps, e "Sem Quedas" caso contrário.
